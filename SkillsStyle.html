@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: sans-serif;
+            font-size: 30px;
+        }
+        section{
+            min-height:200px;   
+            width:100%;
+        }
+        
+        section:nth-child(odd) {
+            background-color: white;
+        }
+
+        section:nth-child(even) {
+            background-color: #f5f2f2;
+        }
+        
+        .icon{
+            width:40px;
+            height:30px;   
+        }
+        
+        p{
+            margin:0px;
+            display:inline;
+            margin-left:10px;
+            font-family:sans-serif;
+            font-size:30px;
+            color:#345595;
+        }
+        #skills{
+            padding:60px 0px;
+        }
+        #first{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            margin-bottom:70px;
+        }
+        #second,#third{
+            display:flex;
+            justify-content:space-around;
+            margin-top:20px;
+            padding:10px;
+        }
+        #third div,#second div{
+            width:100px;
+            border-radius:10px;
+            background-color:#c7c7c7;
+            height:20px;
+            overflow:hidden;
+        }
+        #c div,#html div,#css div, #js div,#node div, #mongo div{
+            border:none;
+            border-radius:0px;
+            height:30px;
+            width:80%;
+            box-shadow: 1px 0 2px 1px #a79894;
+            font-size:13px;
+            padding:3px;
+            margin:0px;
+            color:white;
+        }
+        #c div {
+            background-color:#2858a4;
+        }
+        #html div {
+            background-color:#eb4d1d;
+        }
+        #css div{
+            background-color:#93738b;
+        }
+        #js div {
+            background-color:#05846d;
+        }
+        #node div{
+            background-color:#2858a4;
+        }
+        #mongo div {
+            background-color:#92738b;
+        }
+    </style>
+</head>
+
+<body>
+    <section></section>
+    <section id="skills">
+        <div id="first">
+            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/8915/8915942.png" >
+            <p>SKILLS</p>
+        </div>
+        <div id="second">
+            <div id="c"><div>&nbsp&nbspC++</div></div>
+            <div id="html"><div>&nbsp&nbspHTML</div></div>
+            <div id="css"><div>&nbsp&nbspCSS</div></div>
+            <div id="js"><div>&nbsp&nbspJavaScript</div></div>
+        </div>
+        <div id="third">
+            <div id="node"><div>&nbsp&nbspNode</div></div>
+            <div id="mongo"><div>&nbsp&nbspMongoDB</div></div>
+        </div>
+    </section>
+
+    <section id="experience">
+
+    </section>
+</body>
+
+</html>
