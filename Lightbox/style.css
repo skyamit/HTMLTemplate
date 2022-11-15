@@ -1,0 +1,25 @@
+body{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+#lightBox {
+	position:fixed;
+	overflow: hidden;
+	width:0px;
+	height:0px;
+	top:0px;
+	left:0px;
+	z-index: 1000;
+	background-color: rgba(0, 0, 0, 0.8);
+	transition: 2s all ease-in-out;
+}
+#lightBox:target {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	top:30%;
+	left:30%;
+	width:200px;
+	height:200px;
+}
